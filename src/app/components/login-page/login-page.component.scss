@@ -1,0 +1,157 @@
+@import "../../../styles.scss";
+
+nav {
+
+    background-color: black;
+    width: 100%;
+
+}
+
+nav img {
+    padding: 5px 0px;
+}
+
+.display {
+    display: inline-block;
+    margin: 0;
+}
+
+.imag {
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    margin: 0%;
+    padding: 20px 0px;
+    border-right: 1px solid whitesmoke;
+
+}
+
+.mid {
+    text-align: right;
+    width: 60%;
+    margin: 0%;
+
+
+
+}
+
+.last {
+    // text-align: center;
+    width: 17%;
+    padding: 20px 0px;
+    border-left: 1px solid whitesmoke;
+}
+
+.lastbtn {
+    border: 0;
+    border-radius: 15px;
+    padding: 10px 50px;
+    color: white;
+    margin-left: 20px;
+    
+    background-color: #ee4931;
+}
+.lastbtn:hover{
+    background-color: white;
+    color: black;
+}
+.midbtn {
+    border: 0;
+    color: #ee4931;
+    background-color: black;
+    padding-right: 20px;
+}
+.midbtn:hover{
+    color: white;
+}
+.medium1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    // padding: 0%;
+    color: white;
+    background-color: rgb(36, 32, 32);
+
+}
+
+.medium1 h1 {
+    margin: 0%;
+    padding: 20px;
+    border-bottom: 2px solid #ee4931;
+}
+
+.medium2{
+    // border: 1px solid;
+    display: flex;
+    justify-content: center;
+    // text-align: center;
+    align-items: center;
+    height: 500px;
+    background: linear-gradient(-110deg, #f4f4f4 79%, #f6c9bf 79%);
+    margin: 0%;
+    padding: 0% ;
+}
+
+.mediumsub {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0% ;
+    // text-align: center;
+    // text-align: center;
+    // padding: 100px; 
+    background-color: white;
+    height: 300px;
+}
+
+.mediumforform {
+    display: flex;
+    justify-content: center;
+    // text-align: center;
+    // margin: 5% 0;
+    background-color: white;
+    height: 250px;
+    // width: 50%;
+}
+
+.mediumforpic {
+    display: flex;
+    justify-content: center;
+    // background-color: white;
+    // margin: 40px 100px;
+    height: 250px;
+    // width: 50%;
+    background-color: #f84a32;
+    box-shadow: 10px 10px #888888;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #ee4931;
+    color: white;
+}
+input{
+    margin: 10px 0px;
+    padding: 0px 2em;
+}
