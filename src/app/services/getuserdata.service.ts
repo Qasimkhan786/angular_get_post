@@ -5,8 +5,8 @@ import{HttpClient} from "@angular/common/http";
   providedIn: 'root'
 })
 export class GetuserdataService {
-  urlget="https://jsonplaceholder.typicode.com/todos";
-  urlsend="https://google.com";
+  urlget="";
+  urlsend="";
   constructor(private http:HttpClient) {
 
     
